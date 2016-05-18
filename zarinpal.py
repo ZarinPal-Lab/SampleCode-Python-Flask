@@ -14,7 +14,7 @@ from suds.client import Client
 app = Flask(__name__)
 
 MMERCHANT_ID = 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX'  # Required
-ZARINPAL_WEBSERVICE = 'https://de.zarinpal.com/pg/services/WebGate/wsdl'  # Required
+ZARINPAL_WEBSERVICE = 'https://www.zarinpal.com/pg/services/WebGate/wsdl'  # Required
 amount = 1000  # Amount will be based on Toman  Required
 description = u'توضیحات تراکنش تستی'  # Required
 email = 'user@userurl.ir'  # Optional
